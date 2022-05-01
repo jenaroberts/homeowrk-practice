@@ -11,31 +11,27 @@ for (i = 0; i < 6; i++) {
   console.log(s.toString());
 }
 
-// //define fuction
+// //define function
 // //state argument
 // // if else statement for grades
 // //call function
 
-// function assignGrade(score){
-//     let result
-//     if(score >= 90){
-//         return 'A'
-//     }
-//     else if(score > 80) {
-//         return 'B'
-//     }
-//     else if(score >70){
-//         return 'C'
-//     }
-//     else if(score > 60){
-//         return 'D'
-//     }
-//     else {
-//         return 'F'
-//     }
-// }
-// console.log(assignGrade(34))
-// console.log(assignGrade(99))
+function assignGrade(score) {
+  let result;
+  if (score >= 90) {
+    return "A";
+  } else if (score > 80) {
+    return "B";
+  } else if (score > 70) {
+    return "C";
+  } else if (score > 60) {
+    return "D";
+  } else {
+    return "F";
+  }
+}
+console.log(assignGrade(34));
+console.log(assignGrade(99));
 
 // write a function that takes an array of numbers as a parameter and logs out every time the nmber is greater than five
 
